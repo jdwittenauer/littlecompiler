@@ -1,0 +1,8 @@
+program sample;
+var x;
+
+while x < 0 do
+	write x;
+endwhile
+
+endprogram

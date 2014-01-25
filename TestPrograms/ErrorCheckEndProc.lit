@@ -1,0 +1,8 @@
+program sample;
+var x;
+
+proc zap;
+	write x;
+endproc
+
+endprogram

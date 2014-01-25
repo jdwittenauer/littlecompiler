@@ -1,0 +1,6 @@
+program sample;
+var x;
+
+x := 10
+
+endprogram

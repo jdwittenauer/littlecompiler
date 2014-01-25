@@ -1,0 +1,48 @@
+program sample;
+
+/*  This routine prints the largest value found in the first
+**  listLength values of an array called "list".  It also
+**  prints the sum of certain items.  The output values should be:
+**  -17, -15, -25, 0, 8, 8, 115, 345, 254, 18184677
+*/
+
+const BIG = 03641077, listLength = 8, ZERO = 0, one = 1;
+var largest = 0, j, minusOne, value, nextItem, sum = zero,
+    list[20] = {6,5,20,one,3,40,254,16,32760,18,8}, upperBound;
+
+proc SumItems;
+    upperBound := listLength + minusOne;
+    sum := 0; j := sum;
+    while j <= upperBound do
+        sum := sum + list[j];
+        j := j + 1;
+    endwhile;
+endproc;
+
+// Beginning of main program
+
+Minusone := 0xf423E - BIG;   // This is 999998 - 999999
+largest := 0 - 1;
+call SumItems; j := 0;
+while j < listLength do
+    if j < upperBound then
+        if list[j] = 1 then
+            value := 0;
+        else
+            IF /* uppercase keyword */ list[j] < largest then
+                value := value + 2 * j;
+            else
+                largest := list[j];
+                Value := Value + list[j] / 2 -
+                    list[2];
+            endif;
+        endif;
+        write value;
+    endif;
+    j := j + 1;
+endwhile;
+value := 9092318;
+write sum, largest, 1 + 2 * (value + length(list));
+// For graduate students, the above line should read:
+// write sum, largest, 1 + 2 * (value + length(list));
+endprogram
